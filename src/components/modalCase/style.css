@@ -1,0 +1,31 @@
+.modalMarketCase {
+  top: 0;
+  position: absolute;
+  z-index: 100;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.caseContainer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.caseContainer {
+  width: 800px;
+  min-height: 200px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+span:nth-child(2) {
+  cursor: pointer;
+}
